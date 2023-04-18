@@ -16,7 +16,7 @@ let tanks= [
 
 let armors = plane.concat(tanks); // iki listeyi birleştirdim oh
 
-/* 
+
 let depo = plane.filter((elem) => { // İsmini yazdığımızın gelmesi
 return elem.Model == "Spitfire";
 });
@@ -28,7 +28,7 @@ return elem.Spesifik == "Kamikaze dalışı";
 });
 
 console.log(depo1);
-/*
+
 console.log("1944 sonrası görev yapanlar")
 depo2 = plane.filter((elem) => { // 1944 sonrası çıkanlar
     return elem.Yıl > 1944;
@@ -58,6 +58,3 @@ return elem.Menşei== "3. Reich Almanyası";
 });
 
 console.log(depo5);
-
-/*
-*/
